@@ -1,1 +1,1 @@
-# hire-the-right-candidate
+# Hiring using GraphRAG and LLMs
