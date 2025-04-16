@@ -1,0 +1,364 @@
+[
+    {
+        "candidate_id": 1,
+        "name": "Hongfan (Louise) Lu",
+        "relationship": "hasSkill",
+        "entity_type": "skill",
+        "entity_value": "Python",
+        "TITLE": "Data Science Professional",
+        "SUMMARY": "Experienced data analyst with optimization expertise in automotive industry, pursuing MS in Information Management with strong technical skills."
+    },
+    {
+        "candidate_id": 1,
+        "name": "Hongfan (Louise) Lu",
+        "relationship": "hasSkill",
+        "entity_type": "skill",
+        "entity_value": "SQL",
+        "TITLE": "Data Science Professional",
+        "SUMMARY": "Experienced data analyst with optimization expertise in automotive industry, pursuing MS in Information Management with strong technical skills."
+    },
+    {
+        "candidate_id": 1,
+        "name": "Hongfan (Louise) Lu",
+        "relationship": "hasSkill",
+        "entity_type": "skill",
+        "entity_value": "Tableau",
+        "TITLE": "Data Science Professional",
+        "SUMMARY": "Experienced data analyst with optimization expertise in automotive industry, pursuing MS in Information Management with strong technical skills."
+    },
+    {
+        "candidate_id": 1,
+        "name": "Hongfan (Louise) Lu",
+        "relationship": "hasJobTitle",
+        "entity_type": "job_title",
+        "entity_value": "Product Data Science Intern",
+        "TITLE": "Data Science Professional",
+        "SUMMARY": "Experienced data analyst with optimization expertise in automotive industry, pursuing MS in Information Management with strong technical skills."
+    },
+    {
+        "candidate_id": 1,
+        "name": "Hongfan (Louise) Lu",
+        "relationship": "hasJobTitle",
+        "entity_type": "job_title",
+        "entity_value": "Business Development Data Analyst",
+        "TITLE": "Data Science Professional",
+        "SUMMARY": "Experienced data analyst with optimization expertise in automotive industry, pursuing MS in Information Management with strong technical skills."
+    },
+    {
+        "candidate_id": 1,
+        "name": "Hongfan (Louise) Lu",
+        "relationship": "workedAt",
+        "entity_type": "company",
+        "entity_value": "PACCAR",
+        "TITLE": "Data Science Professional",
+        "SUMMARY": "Experienced data analyst with optimization expertise in automotive industry, pursuing MS in Information Management with strong technical skills."
+    },
+    {
+        "candidate_id": 1,
+        "name": "Hongfan (Louise) Lu",
+        "relationship": "workedAt",
+        "entity_type": "company",
+        "entity_value": "Seraph Consulting",
+        "TITLE": "Data Science Professional",
+        "SUMMARY": "Experienced data analyst with optimization expertise in automotive industry, pursuing MS in Information Management with strong technical skills."
+    },
+    {
+        "candidate_id": 1,
+        "name": "Hongfan (Louise) Lu",
+        "relationship": "hasIndustry",
+        "entity_type": "industry",
+        "entity_value": "Automotive",
+        "TITLE": "Data Science Professional",
+        "SUMMARY": "Experienced data analyst with optimization expertise in automotive industry, pursuing MS in Information Management with strong technical skills."
+    },
+    {
+        "candidate_id": 1,
+        "name": "Hongfan (Louise) Lu",
+        "relationship": "hasEducationLevel",
+        "entity_type": "education",
+        "entity_value": "Master of Science",
+        "TITLE": "Data Science Professional",
+        "SUMMARY": "Experienced data analyst with optimization expertise in automotive industry, pursuing MS in Information Management with strong technical skills."
+    },
+    {
+        "candidate_id": 1,
+        "name": "Hongfan (Louise) Lu",
+        "relationship": "studiedAt",
+        "entity_type": "university",
+        "entity_value": "University of Washington",
+        "TITLE": "Data Science Professional",
+        "SUMMARY": "Experienced data analyst with optimization expertise in automotive industry, pursuing MS in Information Management with strong technical skills."
+    },
+    {
+        "candidate_id": 1,
+        "name": "Hongfan (Louise) Lu",
+        "relationship": "hasProject",
+        "entity_type": "project",
+        "entity_value": "NLP YouTube Gaming Videos Comments Toxicity Analysis",
+        "TITLE": "Data Science Professional",
+        "SUMMARY": "Experienced data analyst with optimization expertise in automotive industry, pursuing MS in Information Management with strong technical skills."
+    },
+    {
+        "candidate_id": 1,
+        "name": "Hongfan (Louise) Lu",
+        "relationship": "hasSoftSkill",
+        "entity_type": "soft_skill",
+        "entity_value": "Project Management",
+        "TITLE": "Data Science Professional",
+        "SUMMARY": "Experienced data analyst with optimization expertise in automotive industry, pursuing MS in Information Management with strong technical skills."
+    },
+
+    {
+        "candidate_id": 2,
+        "name": "Mahir Jain",
+        "relationship": "hasSkill",
+        "entity_type": "skill",
+        "entity_value": "Python",
+        "TITLE": "Data Scientist with Analytics Experience",
+        "SUMMARY": "Data scientist with expertise in Python, SQL, and analytics, experienced at Cox Communications and Cisco Systems with strong technical background."
+    },
+    {
+        "candidate_id": 2,
+        "name": "Mahir Jain",
+        "relationship": "hasSkill",
+        "entity_type": "skill",
+        "entity_value": "SQL",
+        "TITLE": "Data Scientist with Analytics Experience",
+        "SUMMARY": "Data scientist with expertise in Python, SQL, and analytics, experienced at Cox Communications and Cisco Systems with strong technical background."
+    },
+    {
+        "candidate_id": 2,
+        "name": "Mahir Jain",
+        "relationship": "hasSkill",
+        "entity_type": "skill",
+        "entity_value": "Tableau",
+        "TITLE": "Data Scientist with Analytics Experience",
+        "SUMMARY": "Data scientist with expertise in Python, SQL, and analytics, experienced at Cox Communications and Cisco Systems with strong technical background."
+    },
+    {
+        "candidate_id": 2,
+        "name": "Mahir Jain",
+        "relationship": "hasJobTitle",
+        "entity_type": "job_title",
+        "entity_value": "Data Scientist Intern",
+        "TITLE": "Data Scientist with Analytics Experience",
+        "SUMMARY": "Data scientist with expertise in Python, SQL, and analytics, experienced at Cox Communications and Cisco Systems with strong technical background."
+    },
+    {
+        "candidate_id": 2,
+        "name": "Mahir Jain",
+        "relationship": "hasJobTitle",
+        "entity_type": "job_title",
+        "entity_value": "Senior Data Analyst",
+        "TITLE": "Data Scientist with Analytics Experience",
+        "SUMMARY": "Data scientist with expertise in Python, SQL, and analytics, experienced at Cox Communications and Cisco Systems with strong technical background."
+    },
+    {
+        "candidate_id": 2,
+        "name": "Mahir Jain",
+        "relationship": "workedAt",
+        "entity_type": "company",
+        "entity_value": "Cox Communications",
+        "TITLE": "Data Scientist with Analytics Experience",
+        "SUMMARY": "Data scientist with expertise in Python, SQL, and analytics, experienced at Cox Communications and Cisco Systems with strong technical background."
+    },
+    {
+        "candidate_id": 2,
+        "name": "Mahir Jain",
+        "relationship": "workedAt",
+        "entity_type": "company",
+        "entity_value": "Cisco Systems",
+        "TITLE": "Data Scientist with Analytics Experience",
+        "SUMMARY": "Data scientist with expertise in Python, SQL, and analytics, experienced at Cox Communications and Cisco Systems with strong technical background."
+    },
+    {
+        "candidate_id": 2,
+        "name": "Mahir Jain",
+        "relationship": "workedAt",
+        "entity_type": "company",
+        "entity_value": "IBM",
+        "TITLE": "Data Scientist with Analytics Experience",
+        "SUMMARY": "Data scientist with expertise in Python, SQL, and analytics, experienced at Cox Communications and Cisco Systems with strong technical background."
+    },
+    {
+        "candidate_id": 2,
+        "name": "Mahir Jain",
+        "relationship": "studiedAt",
+        "entity_type": "university",
+        "entity_value": "University of Washington",
+        "TITLE": "Data Scientist with Analytics Experience",
+        "SUMMARY": "Data scientist with expertise in Python, SQL, and analytics, experienced at Cox Communications and Cisco Systems with strong technical background."
+    },
+    {
+        "candidate_id": 2,
+        "name": "Mahir Jain",
+        "relationship": "hasEducationLevel",
+        "entity_type": "education",
+        "entity_value": "Masters",
+        "TITLE": "Data Scientist with Analytics Experience",
+        "SUMMARY": "Data scientist with expertise in Python, SQL, and analytics, experienced at Cox Communications and Cisco Systems with strong technical background."
+    },
+    {
+        "candidate_id": 2,
+        "name": "Mahir Jain",
+        "relationship": "certifiedIn",
+        "entity_type": "certification",
+        "entity_value": "AWS Cloud Practitioner",
+        "TITLE": "Data Scientist with Analytics Experience",
+        "SUMMARY": "Data scientist with expertise in Python, SQL, and analytics, experienced at Cox Communications and Cisco Systems with strong technical background."
+    },
+    {
+        "candidate_id": 2,
+        "name": "Mahir Jain",
+        "relationship": "certifiedIn",
+        "entity_type": "certification",
+        "entity_value": "Tableau Desktop Specialist",
+        "TITLE": "Data Scientist with Analytics Experience",
+        "SUMMARY": "Data scientist with expertise in Python, SQL, and analytics, experienced at Cox Communications and Cisco Systems with strong technical background."
+    },
+    {
+        "candidate_id": 2,
+        "name": "Mahir Jain",
+        "relationship": "hasProject",
+        "entity_type": "project",
+        "entity_value": "Social Media Activity Simulation",
+        "TITLE": "Data Scientist with Analytics Experience",
+        "SUMMARY": "Data scientist with expertise in Python, SQL, and analytics, experienced at Cox Communications and Cisco Systems with strong technical background."
+    },
+    {
+        "candidate_id": 2,
+        "name": "Mahir Jain",
+        "relationship": "hasProject",
+        "entity_type": "project",
+        "entity_value": "YouTube Content Virality Analysis",
+        "TITLE": "Data Scientist with Analytics Experience",
+        "SUMMARY": "Data scientist with expertise in Python, SQL, and analytics, experienced at Cox Communications and Cisco Systems with strong technical background."
+    },
+    {
+        "candidate_id": 2,
+        "name": "Mahir Jain",
+        "relationship": "hasSoftSkill",
+        "entity_type": "soft_skill",
+        "entity_value": "Data Storytelling",
+        "TITLE": "Data Scientist with Analytics Experience",
+        "SUMMARY": "Data scientist with expertise in Python, SQL, and analytics, experienced at Cox Communications and Cisco Systems with strong technical background."
+    },
+
+    {
+        "candidate_id": 3,
+        "name": "CHING-PING CHAN",
+        "relationship": "hasEducationLevel",
+        "entity_type": "education",
+        "entity_value": "Master of Science",
+        "TITLE": "Data Science Information Management Professional",
+        "SUMMARY": "Data science professional with experience in sales operations, CRM, and demand planning with skills in SQL, Python, R, and data visualization."
+    },
+    {
+        "candidate_id": 3,
+        "name": "CHING-PING CHAN",
+        "relationship": "studiedAt",
+        "entity_type": "university",
+        "entity_value": "University of Washington",
+        "TITLE": "Data Science Information Management Professional",
+        "SUMMARY": "Data science professional with experience in sales operations, CRM, and demand planning with skills in SQL, Python, R, and data visualization."
+    },
+    {
+        "candidate_id": 3,
+        "name": "CHING-PING CHAN",
+        "relationship": "hasSkill",
+        "entity_type": "skill",
+        "entity_value": "SQL",
+        "TITLE": "Data Science Information Management Professional",
+        "SUMMARY": "Data science professional with experience in sales operations, CRM, and demand planning with skills in SQL, Python, R, and data visualization."
+    },
+    {
+        "candidate_id": 3,
+        "name": "CHING-PING CHAN",
+        "relationship": "hasSkill",
+        "entity_type": "skill",
+        "entity_value": "Python",
+        "TITLE": "Data Science Information Management Professional",
+        "SUMMARY": "Data science professional with experience in sales operations, CRM, and demand planning with skills in SQL, Python, R, and data visualization."
+    },
+    {
+        "candidate_id": 3,
+        "name": "CHING-PING CHAN",
+        "relationship": "hasSkill",
+        "entity_type": "skill",
+        "entity_value": "R",
+        "TITLE": "Data Science Information Management Professional",
+        "SUMMARY": "Data science professional with experience in sales operations, CRM, and demand planning with skills in SQL, Python, R, and data visualization."
+    },
+    {
+        "candidate_id": 3,
+        "name": "CHING-PING CHAN",
+        "relationship": "hasSkill",
+        "entity_type": "skill",
+        "entity_value": "Tableau",
+        "TITLE": "Data Science Information Management Professional",
+        "SUMMARY": "Data science professional with experience in sales operations, CRM, and demand planning with skills in SQL, Python, R, and data visualization."
+    },
+    {
+        "candidate_id": 3,
+        "name": "CHING-PING CHAN",
+        "relationship": "certifiedIn",
+        "entity_type": "certification",
+        "entity_value": "Certified Tableau Desktop Specialist",
+        "TITLE": "Data Science Information Management Professional",
+        "SUMMARY": "Data science professional with experience in sales operations, CRM, and demand planning with skills in SQL, Python, R, and data visualization."
+    },
+    {
+        "candidate_id": 3,
+        "name": "CHING-PING CHAN",
+        "relationship": "hasJobTitle",
+        "entity_type": "job_title",
+        "entity_value": "Sales Operations Specialist",
+        "TITLE": "Data Science Information Management Professional",
+        "SUMMARY": "Data science professional with experience in sales operations, CRM, and demand planning with skills in SQL, Python, R, and data visualization."
+    },
+    {
+        "candidate_id": 3,
+        "name": "CHING-PING CHAN",
+        "relationship": "workedAt",
+        "entity_type": "company",
+        "entity_value": "Stextun Industrial Ltd.",
+        "TITLE": "Data Science Information Management Professional",
+        "SUMMARY": "Data science professional with experience in sales operations, CRM, and demand planning with skills in SQL, Python, R, and data visualization."
+    },
+    {
+        "candidate_id": 3,
+        "name": "CHING-PING CHAN",
+        "relationship": "hasJobTitle",
+        "entity_type": "job_title",
+        "entity_value": "Assortment and Demand Planning Senior Analyst",
+        "TITLE": "Data Science Information Management Professional",
+        "SUMMARY": "Data science professional with experience in sales operations, CRM, and demand planning with skills in SQL, Python, R, and data visualization."
+    },
+    {
+        "candidate_id": 3,
+        "name": "CHING-PING CHAN",
+        "relationship": "workedAt",
+        "entity_type": "company",
+        "entity_value": "Triumph Group",
+        "TITLE": "Data Science Information Management Professional",
+        "SUMMARY": "Data science professional with experience in sales operations, CRM, and demand planning with skills in SQL, Python, R, and data visualization."
+    },
+    {
+        "candidate_id": 3,
+        "name": "CHING-PING CHAN",
+        "relationship": "hasProject",
+        "entity_type": "project",
+        "entity_value": "Top 100 Movies Dashboard",
+        "TITLE": "Data Science Information Management Professional",
+        "SUMMARY": "Data science professional with experience in sales operations, CRM, and demand planning with skills in SQL, Python, R, and data visualization."
+    },
+    {
+        "candidate_id": 3,
+        "name": "CHING-PING CHAN",
+        "relationship": "hasSoftSkill",
+        "entity_type": "soft_skill",
+        "entity_value": "teamwork",
+        "TITLE": "Data Science Information Management Professional",
+        "SUMMARY": "Data science professional with experience in sales operations, CRM, and demand planning with skills in SQL, Python, R, and data visualization."
+    }
+]
