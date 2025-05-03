@@ -94,7 +94,7 @@ Extract these values:
 
 
 Structure the output only as a list of dictionaries with one dictionary per relationship
-Make sure to extract atleast 5 entities with their associated relations per candidate
+Make sure to extract at least 5 entities with their associated relations per candidate
 Extract the output in the following format only as shown in <example_output> tags
 Respond strictly only with the list without any other special characters, tags, or explanation
 

@@ -1,0 +1,67 @@
+Overview
+This notebook demonstrates how to build a Retrieval Augmented Generation (RAG) system using a graph database (Neo4j) and LLMs (OpenAI). The goal is to create a candidate recommendation chatbot that leverages structured candidate data and relationships.
+
+1. Packages Used
+langchain: For LLM and graph database integration.
+openai: To access OpenAI’s LLMs and embeddings.
+neo4j: To connect to the Neo4j graph database.
+python-dotenv: To load environment variables (like API keys).
+pandas: For data manipulation.
+Other imports: Standard Python libraries (os, json).
+2. Inputs
+OpenAI API Key: For LLM and embedding access.
+Neo4j Credentials: URL, username, password for the local Neo4j instance.
+Dataset: A JSON file (data/example_candidates.json) containing candidate data and relationships.
+3. Step-by-Step Logic
+A. Setup
+Install required libraries.
+Import libraries and set up environment variables (API keys).
+B. Load Dataset
+Load candidate data from a JSON file.
+Convert it to a pandas DataFrame for inspection.
+C. Connect to Neo4j
+Use the neo4j package to verify connectivity.
+Use langchain.graphs.Neo4jGraph for higher-level graph operations.
+D. Import Data into Neo4j
+For each candidate in the dataset:
+Create/merge candidate nodes.
+Create/merge entity nodes (skills, companies, etc.).
+Create/merge relationships between candidates and entities.
+This is done using dynamically generated Cypher queries.
+E. Inspect Data
+Run Cypher queries to count nodes, relationships, and preview data.
+F. Create Vector Indexes
+Use OpenAI embeddings to vectorize candidate and entity properties.
+Store these embeddings in Neo4j for similarity search.
+Create vector indexes for efficient retrieval.
+G. Extract Entities from User Prompts
+Define possible entity and relationship types.
+Use an LLM (OpenAI) to extract relevant entities from user queries using a system prompt.
+H. Generate Cypher Queries
+For each user query:
+Use the LLM to extract entities.
+Generate a Cypher query that uses cosine similarity (via GDS) to find candidates matching the query.
+The query uses the vector indexes and embeddings for semantic search.
+I. Query the Graph
+Run the generated Cypher queries against Neo4j.
+Retrieve and print matching candidates.
+4. Outputs
+Console Output: For each example query, prints the number and names of matching candidates.
+Neo4j Database: Populated with candidate nodes, entity nodes, relationships, and embeddings.
+DataFrame Output: Shows the loaded candidate data.
+Summary Table
+Step	Input(s)	Logic/Process	Output(s)
+Setup	None	Install/import packages, set env variables	None
+Load Dataset	JSON file	Load and parse candidate data	DataFrame, JSON object
+Connect to Neo4j	Credentials	Connect and verify Neo4j instance	Connection confirmation
+Import Data	Candidate data	Create nodes/relationships in Neo4j	Data in Neo4j
+Inspect Data	None	Cypher queries to count/preview data	Printed counts, sample data
+Create Vector Index	Candidate/entity properties	Generate/store embeddings, create vector indexes	Embeddings in Neo4j
+Extract Entities	User queries	Use LLM to extract entities from queries	JSON of extracted entities
+Generate Queries	Extracted entities	Build Cypher queries using similarity search	Cypher query strings
+Query Graph	Cypher queries, embeddings	Run queries, retrieve matching candidates	Printed candidate names/counts
+Key Points
+Inputs: OpenAI API key, Neo4j credentials, candidate JSON data, user queries.
+Logic: Data ingestion → embedding → semantic search → LLM-driven query generation.
+Outputs: Matching candidates for each user query, both in console and Neo4j.
+Let me know if you want a deeper dive into any specific section!

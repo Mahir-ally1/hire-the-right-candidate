@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+hire/
+*.env
+*.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Output and log files
+*.log
+*.out
+*.tmp
+
+# PDF and resume outputs
+*.pdf
+candidates_*.txt
+candidates_*.json
+claude_output_candidate_*.txt
+
+# AWS credentials (never commit these!)
+.aws/
+
+# Data and cache
+*.sqlite3
+*.db
+.cache/
